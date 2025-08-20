@@ -60,7 +60,10 @@
     </div>
 
     <a class="btn" href="#" onclick="restartTyping();return false;">Replay typing</a>
-    <footer>© <span id="yr"></span>SK COMMUNITY</footer>
+    <footer>© SK COMMUNITY <span id="yr"></span></footer>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
   </div>
 
   <script>
